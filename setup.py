@@ -13,7 +13,7 @@
 
 
 from setuptools import setup, find_packages
-from nose_docker import __version__
+from nose_docker_fabric import __version__
 
 tests_require = [
     'mock',

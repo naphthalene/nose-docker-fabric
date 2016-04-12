@@ -22,7 +22,7 @@ from nose.result import TextTestResult
 import sh
 from sh import docker
 
-from nose_docker.config import TestConfig
+from nose_docker_fabric.config import TestConfig
 
 FAILURE_SELECTOR = CSSSelector('failure')
 ERROR_SELECTOR = CSSSelector('error')
